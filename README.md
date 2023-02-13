@@ -1,4 +1,5 @@
 # Book-Recommendation-System
+
 Using Collaborative based (User based and Item based) Filtering Techniques
 
 ### ABSTRACT
@@ -9,4 +10,13 @@ In recent years, recommender systems have been in great demand in every field, a
 
 https://www.kaggle.com/code/hilalmleykeyuksel/book-recommender/data
 
-### 
+### METHODOLOGY
+
+1. Exploratory Data Analysis
+2. User-Based Collaborative Filtering using correlation matrix
+3. Item-Based Collaborative Filtering using K-means, DBSCAN and Hierarchical Clustering
+
+### RESULTS
+
+Finally, the model is able to recommend books by giving either a user as an input or a book title. For all three subsets of the dataset, the
+Hierarchical Clustering performed the best. This conclusion was drawn by taking the silhouette scores, calinski harabasz scores and the davies bouldin scores into account.
